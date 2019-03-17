@@ -45,9 +45,9 @@ driver.find_element_by_link_text("Sign in").click()
 driver.find_element_by_xpath("(.//*[normalize-space(text()) and normalize-space(.)='Welcome back.'])[1]/following::button[1]").click()
 
 email = driver.find_element_by_xpath('//*[@id="email"]')
-email.send_keys('rodrigoafons@hotmail.com')
+email.send_keys('email')
 senha = driver.find_element_by_xpath('//*[@id="pass"]')
-senha.send_keys('rod@1220')
+senha.send_keys('pass')
 driver.find_element_by_xpath('//*[@id="loginbutton"]').click()
 
 sleep(10)
